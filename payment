@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.columns {
+  float: left;
+  width: 20%;
+  padding: 8px;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgb(10, 185, 69)
+}
+
+.price .header {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+.button {
+  background-color: #ffffff;
+  border: 2px #4caf50
+  color: blanchedalmond;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+.button:hover {
+  background-color: #1ea6be; /* Green */
+  color: white;
+}
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2 style="text-align:center">Upgrade now & Get Premium benefits for upto <b>4 weeks</b> extra,<b>FREE!</b></h2>
+<p style="text-align:center"><b>Save upto 55%.Valid till 5th April</b></p>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header"><b>Gold</b> 3 Months</li>
+    <li> </li>
+    <li style="color:rgb(10, 185, 69)"><b>40% off</b> <strike>Rs 4,850</strike></li>
+    <li class="grey">Rs 2,910/ year</li>
+    <li class="grey"><a href="#" class="button">Continue</a></li>
+    <li>Send unlimited Messages</li>
+    <li>View upto 75 Contact Numbers</li>
+    <li><strike>Stand out from other Profiles</strike></li>
+    <li><strike>Let matches contact you directly</strike></li>
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header" ><b>Gold Plus</b> 3 Months</li>
+    <li style="color:rgb(10, 185, 69)">1 extra week for <b> FREE</b></li>
+    <li style="color:rgb(10, 185, 69)"><b>45% off</b> <strike>Rs 5,950</strike></li>
+    <li class="grey">Rs 3,272/ year</li>
+    <li class="grey"><a href="#" class="button">Continue</a></li>
+    <li>Send unlimited Messages</li>
+    <li>View upto 150 Contact Numbers</li>
+    <li>Standout from other Profiles</li>
+    <li><strike>Let Matches conact you directly</strike></li>
+    
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header"><b>Diamond</b> 6 Months</li>
+    <li></li>
+    <li style="color:rgb(10, 185, 69)"><b>40% off</b> <strike>Rs 6,950</strike></li>
+    <li class="grey">Rs 3,822 / year</li>
+    <li class="grey"><a href="#" class="button">Continue</a></li>
+    <li>Send unlimited Messages</li>
+    <li>View upto 75 Contact Numbers</li>
+    <li><strike>Stand out from other Profiles</strike></li>
+    <li><strike>Let matches contact you directly</strike></li>
+    
+  </ul>
+</div>
+
+<div class="columns">
+    <ul class="price">
+      <li style="color:rgb(236, 78, 57)"><b>---TOP SELLER---</b></li>
+      <li class="header"><b>Diamond Plus</b> 6 Months</li>
+      <li style="color:rgb(10, 185, 69)">2 extra week for <b> FREE</b></li>
+      <li style="color:rgb(10, 185, 69)"><b>50% off</b> <strike>Rs 8,950</strike></li>
+      <li class="grey">Rs 4,475 / year</li>
+      <li class="grey"><a href="#" class="button">Continue</a></li>
+      <li>Send unlimited Messages</li>
+      <li>View upto 75 Contact Numbers</li>
+      <li>Stand out from other Profiles</li>
+      <li>Let matches contact you directly</li>
+      
+    </ul>
+  </div>
+
+  <div class="columns">
+    <ul class="price">
+      <li style="color:rgb(236, 78, 57)"><b>---BEST VAlUE---</b></li>
+      <li class="header"><b>Platinum Plus</b> 12 Months</li>
+      <li style="color:rgb(10, 185, 69)">4 extra week for <b> FREE</b></li>
+      <li style="color:rgb(10, 185, 69)"><b>55% off</b> <strike>Rs 14,850</strike></li>
+      <li class="grey">Rs 6,682 / year</li>
+      <li class="grey"><a href="#" class="button">Continue</a></li>
+      <li>Send unlimited Messages</li>
+      <li>View upto 75 Contact Numbers</li>
+      <li>Stand out from other Profiles</li>
+      <li>Let matches contact you directly</li>
+      
+    </ul>
+  </div>
+
+
+</body>
+</html>
+
